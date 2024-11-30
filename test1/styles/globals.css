@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: black;
+  background: white;
+}
+:root {
+  --mainColor: #e67e22;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mantine-Timeline-itemBody{
+ background-color: #e7e7e7;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+.subContainer{
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .subContainer{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .subContainer{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .subContainer{
+    width: 90%;
+  }
+}

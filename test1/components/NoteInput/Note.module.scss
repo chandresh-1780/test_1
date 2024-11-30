@@ -1,0 +1,84 @@
+.mainCon {
+  padding: 20px;
+  background-color: rgb(237, 240, 240);
+  // width: 500px;
+  border-radius: 10px;
+}
+.subCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(46, 196, 158);
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.iconDiv {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.icon {
+  //   padding: 10px;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.btn {
+  padding: 5px 10px;
+  background-color: rgb(46, 196, 158);
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.deleteBtn {
+  color: red;
+  padding: 4px 17px;
+  font-size: 14px;
+  border: 1px solid red;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .flex {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
